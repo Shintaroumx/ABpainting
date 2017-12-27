@@ -1,0 +1,339 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-optimize
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll"
+-r:Assets/Plugins/Koreographer/SonicBloom.Koreo.dll
+-r:Assets/Plugins/Koreographer/SonicBloom.MIDI.dll
+-r:C:/Users/Shintarou/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+Assets/AnimTech-master/Learn/TestEditor/AnotherTestingScript.cs
+Assets/AnimTech-master/Learn/TestEditor/MyPlayer.cs
+Assets/AnimTech-master/Learn/TestEditor/ObjectBuilderScript.cs
+Assets/AnimTech-master/Learn/TestEditor/RegexAttribute.cs
+Assets/AnimTech-master/Learn/TestEditor/RegexExample.cs
+Assets/AnimTech-master/Learn/TestEditor/ScaledCurve.cs
+Assets/AnimTech-master/Learn/TestEditor/TestingCurves.cs
+Assets/AnimTech-master/Learn/TestEditor/TestLevelScript.cs
+Assets/AnimTech-master/Learn/TestEditor/TestLookAtPoint.cs
+Assets/AnimTech-master/Learn/TestEditor/TestSerializableClass.cs
+"Assets/AnimTech-master/傅里叶游戏/Script/AT傅里叶振子按钮.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT墨水包.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT振子原型.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT振子尺寸.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT振子色彩.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT控制所有振子.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT滤波器.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT激活关闭所有振子的画笔.cs"
+"Assets/AnimTech-master/傅里叶游戏/Script/AT重置所有振子的时刻和位置.cs"
+"Assets/AnimTech-master/分形混沌/script/AT_FractalTree.cs"
+"Assets/AnimTech-master/分形混沌/script/AT_Lorenz.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期位移.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期圆周.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期尺度.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期旋转.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期色彩HSVA.cs"
+"Assets/AnimTech-master/周期行为/script/AT周期行为基类.cs"
+"Assets/AnimTech-master/手势识别/Script/AT笔触旋转判断.cs"
+"Assets/AnimTech-master/手势识别/Script/AT笔触沿方向判断.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课_简单随机移动.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课噪声变色.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课噪声旋转.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课简单随机变色.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课简单随机旋转.cs"
+"Assets/AnimTech-master/授课/第二周周三/12/Script/课简单随机缩放.cs"
+"Assets/AnimTech-master/授课/第二周周三/34/script/课堂_噪声随机移动.cs"
+"Assets/AnimTech-master/授课/第二周周三/34/script/随机旋转0.cs"
+"Assets/AnimTech-master/授课/第二周周三/34/script/随机缩放0.cs"
+"Assets/AnimTech-master/授课/第八周周三/34/Script/AT_PTBase.cs"
+"Assets/AnimTech-master/授课/第八周周三/34/Script/AT_PTInherit0.cs"
+"Assets/AnimTech-master/授课/第八周周三/34/Script/AT_PTRandImpluse.cs"
+"Assets/AnimTech-master/授课/第八周周三/34/Script/AT_RandTorque.cs"
+"Assets/AnimTech-master/授课/第六周周一/Script/AT力的实验.cs"
+"Assets/AnimTech-master/授课/第六周周三/12/AT周期振动12.cs"
+"Assets/AnimTech-master/授课/第六周周三/34/AT简单周期振动34.cs"
+"Assets/AnimTech-master/授课/第十二周/Script/AT_Align.cs"
+"Assets/AnimTech-master/授课/第十二周/Script/AT_Cohesion.cs"
+"Assets/AnimTech-master/授课/第十二周/Script/AT_Separation.cs"
+"Assets/AnimTech-master/授课/第十二周/Script/AT_Spawner.cs"
+"Assets/AnimTech-master/授课/第十周周一/12/AT_SimpleKeyframe12.cs"
+"Assets/AnimTech-master/授课/第十四周/34/FractalDemo2.cs"
+"Assets/AnimTech-master/授课/第十四周/34/FractalSpriteDemo.cs"
+"Assets/AnimTech-master/授课/第四周周三/12/Script/AT_w2_旋转测试.cs"
+"Assets/AnimTech-master/授课/第四周周三/12/Script/AT_w4_yanliao.cs"
+"Assets/AnimTech-master/授课/第四周周三/12/Script/AT_w4_旋转四元数.cs"
+"Assets/AnimTech-master/授课/第四周周三/12/Script/AT_w4_旋转欧拉角.cs"
+"Assets/AnimTech-master/授课/第四周周三/34/Script/AT_不断旋转.cs"
+"Assets/AnimTech-master/插值动画/Script/ATScaleByAnimCurve.cs"
+"Assets/AnimTech-master/牛顿力学/Script/AT朝原点引力.cs"
+"Assets/AnimTech-master/牛顿力学/Script/AT随机冲量.cs"
+"Assets/AnimTech-master/粒子系统/Script/12/ATParticleBase12.cs"
+"Assets/AnimTech-master/粒子系统/Script/12/ATParticleComp12A.cs"
+"Assets/AnimTech-master/粒子系统/Script/12/ATParticleComp12B.cs"
+"Assets/AnimTech-master/粒子系统/Script/12/ATParticleInherited12.cs"
+"Assets/AnimTech-master/粒子系统/Script/34/ATParticleBase.cs"
+"Assets/AnimTech-master/粒子系统/Script/34/ATParticleInherited.cs"
+"Assets/AnimTech-master/粒子系统/Script/34/ATParticleInherited2.cs"
+"Assets/AnimTech-master/粒子系统/Script/34/ATParticleSystem.cs"
+"Assets/AnimTech-master/粒子系统/Test/ForEachTest.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPT_BrushSprite.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPT_ResetPlay.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Block.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_BrushTrailCtrl.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_CameraCtrl.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Chaser.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_HPBonus.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_HPDisp.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Icon.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Lurker.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_ScaleCtrl.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Servant.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Shift.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Shock.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Speed.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_SplahsDropNumFromHP.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_SplashDrop.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Substitute.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_TriggerByBrushSprite.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATPTRun_Wall.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATTraceRecorder.cs"
+"Assets/AnimTech-master/线描跑酷/Script/ATTraceRunner.cs"
+"Assets/AnimTech-master/绘画/Script/AT摄像头控制.cs"
+"Assets/AnimTech-master/绘画/Script/AT画笔.cs"
+"Assets/AnimTech-master/绘画/Script/AT画笔选择按钮.cs"
+"Assets/AnimTech-master/绘画/Script/AT缓慢漂白画布.cs"
+"Assets/AnimTech-master/绘画/Script/AT选择笔刷类别菜单.cs"
+"Assets/AnimTech-master/绘画/Script/AT颜料空间.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_Align.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_Arrive.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_Neighbors.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_NeighborsIntersection.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_Seek.cs"
+"Assets/AnimTech-master/自治智能体/Script/SA_SeekAlongPath.cs"
+"Assets/AnimTech-master/自治智能体/Script/SmartAgentBase.cs"
+"Assets/AnimTech-master/自治智能体/Script/TargetTransform.cs"
+"Assets/AnimTech-master/自治智能体/Script/Utils/SA_KeyboardForcer.cs"
+"Assets/AnimTech-master/辅助库/AT_MathUtil.cs"
+"Assets/AnimTech-master/辅助库/AT_Utils.cs"
+"Assets/AnimTech-master/辅助库/FourierSynthesis/FourierSynthesis.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/ATDieWithAntoher.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/ATDieWithourChild.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/ATMoveCompFromTo.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/AT切换可见性.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/AT切换部件活性.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/AT创建物体自母亲.cs"
+"Assets/AnimTech-master/辅助库/GameObject控制/AT死亡.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT_泊松过程触发器.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT_随机时间间隔触发器.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_单次.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_固定间隔.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_定时.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_开始.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_触发.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_键盘按键.cs"
+"Assets/AnimTech-master/辅助库/事件触发器/AT触发器_随机n次.cs"
+"Assets/AnimTech-master/辅助库/信息反馈/Decoration/Script/ATSwapWithParent.cs"
+"Assets/AnimTech-master/辅助库/信息反馈/Decoration/Script/IF_SetScaleCurve.cs"
+"Assets/AnimTech-master/辅助库/信息反馈/Script/ATPopInfoTest.cs"
+"Assets/AnimTech-master/辅助库/信息反馈/Script/AT定时死亡.cs"
+"Assets/AnimTech-master/辅助库/信息反馈/Script/PopupInformer.cs"
+"Assets/AnimTech-master/辅助库/测试/测试_行列式.cs"
+"Assets/AnimTech-master/辅助库/运动控制/AT持续移动.cs"
+"Assets/AnimTech-master/辅助库/运动控制/AT振子运动.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT_匀速直线运动.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT_噪声方向移动.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT_随机方向.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT_随机移动.cs"
+"Assets/AnimTech-master/随机行为/Scripts/ATDefinitions.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声偏移.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声尺寸.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声尺寸XYZ.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声旋转.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声色彩HSV.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT噪声透明度.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT简单随机旋转.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT简单随机移动.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT简单随机缩放.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT简单随机色彩_HSV.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT自定概率分布随机值生成器.cs"
+"Assets/AnimTech-master/随机行为/Scripts/AT随机选择图像.cs"
+"Assets/AnimTech-master/随机行为/Scripts/OneTime/AT随机化_尺寸.cs"
+Assets/Cocuy/Demos/Scripts/Pendulum.cs
+Assets/Cocuy/Demos/Scripts/ShipPlayerController.cs
+Assets/Cocuy/Scripts/Blocker.cs
+Assets/Cocuy/Scripts/FluidFollower.cs
+Assets/Cocuy/Scripts/FluidSimulator.cs
+Assets/Cocuy/Scripts/MouseManipulator.cs
+Assets/Cocuy/Scripts/ParticlesArea.cs
+Assets/Cocuy/Scripts/ParticlesAreaManipulator.cs
+Assets/Cocuy/Scripts/PolygonBlocker.cs
+Assets/Cocuy/Scripts/TouchManipulator.cs
+Assets/Cocuy/Scripts/VelocityManipulator.cs
+Assets/Koreographer/Demos/Scripts/ColorAdjuster.cs
+Assets/Koreographer/Demos/Scripts/CubeScaler.cs
+Assets/Koreographer/Demos/Scripts/DemoControlsUI.cs
+Assets/Koreographer/Demos/Scripts/EmitParticlesOnSpan.cs
+Assets/Koreographer/Demos/Scripts/TempoSwitch.cs
+Assets/Koreographer/Demos/Scripts/UIMessageSetter.cs
+"Assets/Shintarou/gif/AT止速.cs"
+"Assets/Shintarou/gif/创建.cs"
+"Assets/Shintarou/gif/子对象随机选择图像.cs"
+"Assets/Shintarou/gif/小人.cs"
+"Assets/Shintarou/gif/小人尺寸变化.cs"
+"Assets/Shintarou/gif/星创建.cs"
+"Assets/Shintarou/gif/星裂.cs"
+"Assets/Shintarou/gif/正常模式.cs"
+"Assets/Shintarou/gif/背景创建.cs"
+"Assets/Shintarou/gif/裂星_体积持续减小.cs"
+"Assets/Shintarou/gif/裂星模式.cs"
+"Assets/Shintarou/gif/远离模式.cs"
+"Assets/Shintarou/gif/量存储.cs"
+"Assets/Shintarou/gif/闭合模式.cs"
+Assets/Shintarou/Scripts/cursor.cs
+Assets/Shintarou/Scripts/cursorTrail.cs
+Assets/Shintarou/Scripts/generator.cs
+Assets/Shintarou/Scripts/hP.cs
+Assets/Shintarou/Scripts/LCtrl.cs
+Assets/Shintarou/Scripts/musicalGtr.cs
+Assets/Shintarou/Scripts/natureDestroy.cs
+Assets/Shintarou/Scripts/RCtrl.cs
+Assets/Shintarou/Scripts/sceneManager.cs
+Assets/Shintarou/Scripts/trace.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

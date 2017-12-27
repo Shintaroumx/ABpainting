@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8df740e686de9e94b9c0e95b3d134553
+timeCreated: 1496221693
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - noteL: {fileID: 1216934635807716, guid: bf9b18ded2c3c6f48ad6c36b67cf586b, type: 2}
+  - noteR: {fileID: 1466509269263940, guid: cc50022110b8b054c891775bb1c6820d, type: 2}
+  - AfterEffect: {fileID: 1865725342633386, guid: d90cc6482b2333d4a8a360d9bf30a440,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

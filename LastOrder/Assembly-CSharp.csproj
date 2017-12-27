@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9C4B0995-366A-BC03-6C8A-1DE19DD9CE18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\AnotherTestingScript.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\MyPlayer.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\ObjectBuilderScript.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\RegexAttribute.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\RegexExample.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\ScaledCurve.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\TestingCurves.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\TestLevelScript.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\TestLookAtPoint.cs" />
+     <Compile Include="Assets\AnimTech-master\Learn\TestEditor\TestSerializableClass.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT傅里叶振子按钮.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT墨水包.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT振子原型.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT振子尺寸.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT振子色彩.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT控制所有振子.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT滤波器.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT激活关闭所有振子的画笔.cs" />
+     <Compile Include="Assets\AnimTech-master\傅里叶游戏\Script\AT重置所有振子的时刻和位置.cs" />
+     <Compile Include="Assets\AnimTech-master\分形混沌\script\AT_FractalTree.cs" />
+     <Compile Include="Assets\AnimTech-master\分形混沌\script\AT_Lorenz.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期位移.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期圆周.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期尺度.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期色彩HSVA.cs" />
+     <Compile Include="Assets\AnimTech-master\周期行为\script\AT周期行为基类.cs" />
+     <Compile Include="Assets\AnimTech-master\手势识别\Script\AT笔触旋转判断.cs" />
+     <Compile Include="Assets\AnimTech-master\手势识别\Script\AT笔触沿方向判断.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课_简单随机移动.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课噪声变色.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课噪声旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课简单随机变色.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课简单随机旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\12\Script\课简单随机缩放.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\34\script\课堂_噪声随机移动.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\34\script\随机旋转0.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第二周周三\34\script\随机缩放0.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第八周周三\34\Script\AT_PTBase.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第八周周三\34\Script\AT_PTInherit0.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第八周周三\34\Script\AT_PTRandImpluse.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第八周周三\34\Script\AT_RandTorque.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第六周周一\Script\AT力的实验.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第六周周三\12\AT周期振动12.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第六周周三\34\AT简单周期振动34.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十二周\Script\AT_Align.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十二周\Script\AT_Cohesion.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十二周\Script\AT_Separation.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十二周\Script\AT_Spawner.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十周周一\12\AT_SimpleKeyframe12.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十四周\34\FractalDemo2.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第十四周\34\FractalSpriteDemo.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第四周周三\12\Script\AT_w2_旋转测试.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第四周周三\12\Script\AT_w4_yanliao.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第四周周三\12\Script\AT_w4_旋转四元数.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第四周周三\12\Script\AT_w4_旋转欧拉角.cs" />
+     <Compile Include="Assets\AnimTech-master\授课\第四周周三\34\Script\AT_不断旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\插值动画\Script\ATScaleByAnimCurve.cs" />
+     <Compile Include="Assets\AnimTech-master\牛顿力学\Script\AT朝原点引力.cs" />
+     <Compile Include="Assets\AnimTech-master\牛顿力学\Script\AT随机冲量.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\12\ATParticleBase12.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\12\ATParticleComp12A.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\12\ATParticleComp12B.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\12\ATParticleInherited12.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\34\ATParticleBase.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\34\ATParticleInherited.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\34\ATParticleInherited2.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Script\34\ATParticleSystem.cs" />
+     <Compile Include="Assets\AnimTech-master\粒子系统\Test\ForEachTest.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPT_BrushSprite.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPT_ResetPlay.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Block.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_BrushTrailCtrl.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_CameraCtrl.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Chaser.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_HPBonus.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_HPDisp.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Icon.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Lurker.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_ScaleCtrl.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Servant.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Shift.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Shock.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Speed.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_SplahsDropNumFromHP.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_SplashDrop.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Substitute.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_TriggerByBrushSprite.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATPTRun_Wall.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATTraceRecorder.cs" />
+     <Compile Include="Assets\AnimTech-master\线描跑酷\Script\ATTraceRunner.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT摄像头控制.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT画笔.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT画笔选择按钮.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT缓慢漂白画布.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT选择笔刷类别菜单.cs" />
+     <Compile Include="Assets\AnimTech-master\绘画\Script\AT颜料空间.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_Align.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_Arrive.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_Neighbors.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_NeighborsIntersection.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_Seek.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SA_SeekAlongPath.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\SmartAgentBase.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\TargetTransform.cs" />
+     <Compile Include="Assets\AnimTech-master\自治智能体\Script\Utils\SA_KeyboardForcer.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\AT_MathUtil.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\AT_Utils.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\FourierSynthesis\FourierSynthesis.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\ATDieWithAntoher.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\ATDieWithourChild.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\ATMoveCompFromTo.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\AT切换可见性.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\AT切换部件活性.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\AT创建物体自母亲.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\GameObject控制\AT死亡.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT_泊松过程触发器.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT_随机时间间隔触发器.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_单次.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_固定间隔.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_定时.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_开始.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_触发.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_键盘按键.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\事件触发器\AT触发器_随机n次.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\信息反馈\Decoration\Script\ATSwapWithParent.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\信息反馈\Decoration\Script\IF_SetScaleCurve.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\信息反馈\Script\ATPopInfoTest.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\信息反馈\Script\AT定时死亡.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\信息反馈\Script\PopupInformer.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\测试\测试_行列式.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\运动控制\AT持续移动.cs" />
+     <Compile Include="Assets\AnimTech-master\辅助库\运动控制\AT振子运动.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT_匀速直线运动.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT_噪声方向移动.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT_随机方向.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT_随机移动.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\ATDefinitions.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声偏移.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声尺寸.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声尺寸XYZ.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声色彩HSV.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT噪声透明度.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT简单随机旋转.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT简单随机移动.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT简单随机缩放.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT简单随机色彩_HSV.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT自定概率分布随机值生成器.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\AT随机选择图像.cs" />
+     <Compile Include="Assets\AnimTech-master\随机行为\Scripts\OneTime\AT随机化_尺寸.cs" />
+     <Compile Include="Assets\Cocuy\Demos\Scripts\Pendulum.cs" />
+     <Compile Include="Assets\Cocuy\Demos\Scripts\ShipPlayerController.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\Blocker.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\FluidFollower.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\FluidSimulator.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\MouseManipulator.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\ParticlesArea.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\ParticlesAreaManipulator.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\PolygonBlocker.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\TouchManipulator.cs" />
+     <Compile Include="Assets\Cocuy\Scripts\VelocityManipulator.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\ColorAdjuster.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\CubeScaler.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\DemoControlsUI.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\EmitParticlesOnSpan.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\TempoSwitch.cs" />
+     <Compile Include="Assets\Koreographer\Demos\Scripts\UIMessageSetter.cs" />
+     <Compile Include="Assets\Shintarou\gif\AT止速.cs" />
+     <Compile Include="Assets\Shintarou\gif\创建.cs" />
+     <Compile Include="Assets\Shintarou\gif\子对象随机选择图像.cs" />
+     <Compile Include="Assets\Shintarou\gif\小人.cs" />
+     <Compile Include="Assets\Shintarou\gif\小人尺寸变化.cs" />
+     <Compile Include="Assets\Shintarou\gif\星创建.cs" />
+     <Compile Include="Assets\Shintarou\gif\星裂.cs" />
+     <Compile Include="Assets\Shintarou\gif\正常模式.cs" />
+     <Compile Include="Assets\Shintarou\gif\背景创建.cs" />
+     <Compile Include="Assets\Shintarou\gif\裂星_体积持续减小.cs" />
+     <Compile Include="Assets\Shintarou\gif\裂星模式.cs" />
+     <Compile Include="Assets\Shintarou\gif\远离模式.cs" />
+     <Compile Include="Assets\Shintarou\gif\量存储.cs" />
+     <Compile Include="Assets\Shintarou\gif\闭合模式.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\cursor.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\cursorTrail.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\generator.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\hP.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\LCtrl.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\musicalGtr.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\natureDestroy.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\RCtrl.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\sceneManager.cs" />
+     <Compile Include="Assets\Shintarou\Scripts\trace.cs" />
+     <None Include="Assets\Plugins\Koreographer\Unity Editor\SonicBloom.Koreo.xml" />
+     <None Include="Assets\Cocuy\Shaders\Cocuy_Simulation.compute" />
+     <None Include="Assets\Plugins\Editor\Koreographer\SonicBloom.Koreo.EditorUI.xml" />
+     <None Include="Assets\Cocuy\Materials\MaterialRenderer.shader" />
+     <None Include="Assets\Koreographer\ReadMe.txt" />
+     <None Include="Assets\Cocuy\Shaders\Cocuy_Common.compute" />
+     <None Include="Assets\Plugins\Koreographer\SonicBloom.MIDI.xml" />
+     <None Include="Assets\Cocuy\Shaders\Cocuy_ParticleArea.compute" />
+     <None Include="Assets\Plugins\Koreographer\SonicBloom.Koreo.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="SonicBloom.MIDI">
+ <HintPath>D:/unity/LastOrder/Assets/Plugins/Koreographer/SonicBloom.MIDI.dll</HintPath>
+ </Reference>
+ <Reference Include="SonicBloom.Koreo">
+ <HintPath>D:/unity/LastOrder/Assets/Plugins/Koreographer/Unity Editor/SonicBloom.Koreo.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Shintarou/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/Shintarou/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
